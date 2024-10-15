@@ -1,28 +1,64 @@
-
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: hsl(0, 0%, 100%);
-    margin: 0;
-    padding: 0;
-    font-family: "Lexend Deca", sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+  box-sizing: border-box;
+}
 
-  ul {
-    list-style: none;
-    margin: 0;
-    margin-bottom: 0;
-  
-  }
-  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.flag-1 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(red 33%, blue 33% 66%, yellow 66%);
+}
+
+.flag-2 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(to right, black 33%, yellow 33% 66%, red 66%);
+}
+
+.flag-3 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(steelblue 33%, white 33% 40%, black 40% 60%, white 60% 67%, steelblue 67% 100%);
+}
+
+.flag-4 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(to right, green 33%, transparent 33% 100%),
+    linear-gradient(yellow 50%, red 50% 100%);
+}
+
+.flag-5 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(130deg, green 33%, yellow 33% 53%, red 53%);
+}
+
+.flag-6 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid white;
+  background-image: linear-gradient(120deg, blue 25%, transparent 10% 100%),
+    linear-gradient(135deg, yellow 25% 45%, transparent 45% 100%),
+    linear-gradient(150deg, red 45% 65%, transparent 45% 100%),
+    linear-gradient(165deg, white 65% 80%, transparent 45% 100%), linear-gradient(180deg, green 80% 100%);
+}
